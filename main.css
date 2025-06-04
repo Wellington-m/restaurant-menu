@@ -107,28 +107,44 @@ header nav ul li a {
 }
 
 /* Menu secction */
-.menu-section-title {
+.section-title {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.menu-section-title p {
+.section-title p {
     color: #349705;
     font-family: "Fraunces", serif;
     font-size: 1em;
     text-transform: uppercase;
 }
 
-.menu-section-title p svg {
+.section-title p svg {
     margin: 0 10px;
 }
 
-.menu-section-title h1 {
+.section-title h1 {
     color: #000000;
     font-family: "Fraunces", serif;
     font-weight: 600;
+}
+
+#menu-section-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-option {
+    bottom: 0;
+    padding: 0 45px 55px 45px;
+}
+
+.menu-option h3 {
+    font-size: 25px;
+    font-family: "Fraunces", serif;
+    color: #ffffff;
 }
 
 /* End */
