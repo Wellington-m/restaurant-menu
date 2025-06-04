@@ -37,12 +37,12 @@ header nav ul li a {
     background-size: cover; /* cobre todo o elemento */
     background-position: center; /* centraliza a imagem */
     background-repeat: no-repeat; /* evita repetição da imagem */
-    width: 100%;
+    max-width: 1320px;
 }
 
 #home-content h1 {
     font-family: "Fraunces", serif;
-    font-size: 3.75em;
+    font-size: 3.125em;
     color: #ffffff !important;
 }
 
@@ -105,3 +105,30 @@ header nav ul li a {
     color: #5e5e5e;
     text-align: end;
 }
+
+/* Menu secction */
+.menu-section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-section-title p {
+    color: #349705;
+    font-family: "Fraunces", serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.menu-section-title p svg {
+    margin: 0 10px;
+}
+
+.menu-section-title h1 {
+    color: #000000;
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+}
+
+/* End */
