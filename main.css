@@ -2,10 +2,6 @@
     font-family: "Inter", sans-serif;
 }
 
-#home-section {
-    margin: 0;
-}
-
 .navbar-nav .nav-link.active {
     background-color: transparent !important;
     color: green !important;
