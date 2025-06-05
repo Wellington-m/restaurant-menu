@@ -2,6 +2,12 @@
     font-family: "Inter", sans-serif;
 }
 
+button {
+    background-color: #349705 !important;
+    border-radius: 0% !important;
+    font-weight: 600 !important;
+}
+
 .navbar-nav .nav-link.active {
     background-color: transparent !important;
     color: green !important;
@@ -46,13 +52,8 @@ header nav ul li a {
     color: #5e5e5e;
 }
 
-#home-content #btn-menu button {
-    background-color: #349705;
-    font-weight: 600;
-}
-
 #home-content #btn-menu button:nth-child(2) {
-    background-color: transparent;
+    background-color: transparent !important;
     color: #349705;
     border-color: #349705;
 }
@@ -130,6 +131,17 @@ header nav ul li a {
 #menu-section-options {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#menu-section-options img {
+    width: 100%;
+}
+
+#menu-section-options > div {
+    width: 280px;
+    height: 385px;
 }
 
 .menu-option {
