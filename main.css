@@ -8,6 +8,14 @@ button {
     font-weight: 600 !important;
 }
 
+.text-multiline-truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Número de linhas desejadas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .navbar-nav .nav-link.active {
     background-color: transparent !important;
     color: green !important;
@@ -111,7 +119,7 @@ header nav ul li a {
     flex-direction: column;
 }
 
-.section-title p {
+.section-title p:nth-child(1) {
     color: #349705;
     font-family: "Fraunces", serif;
     font-size: 1em;
@@ -120,6 +128,12 @@ header nav ul li a {
 
 .section-title p svg {
     margin: 0 10px;
+}
+
+.section-title p:nth-child(3) {
+    max-width: 697px;
+    max-height: 49px;
+    color: #5e5e5e;
 }
 
 .section-title h1 {
